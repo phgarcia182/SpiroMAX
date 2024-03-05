@@ -21,7 +21,7 @@ Es en este contexto que surge la necesidad urgente de desarrollar soluciones inn
 
 ## ¿Que ofrecemos?
 
-Para ello ofrecemos SpiroMAX, el conjunto de un espirómetro y una aplicación diseñados específicamente para las necesidades descriptas anteriormente, ofreciendo una alternativa accesible y efectiva, ayudando a reducir el número de muertes evitables y mejorar la calidad de vida de los pacientes.
+Para ello ofrecemos SpiroMAX, el conjunto de un espirómetro y una aplicación para Android, diseñados específicamente para las necesidades descriptas anteriormente, ofreciendo una alternativa accesible y efectiva, ayudando a reducir el número de muertes evitables y mejorar la calidad de vida de los pacientes.
 
 - **Bajo Costo:** Diseñado con un enfoque en la asequibilidad, nuestro espirómetro ofrece un método económico impreso en 3D para realizar pruebas espirométricas precisas.
   
