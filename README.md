@@ -38,3 +38,15 @@ Para ello ofrecemos SpiroMAX, el conjunto de un espirómetro y una aplicación p
 - **Sistema de Ayuda al Diagnóstico:** Implementamos un sistema de ayuda al diagnóstico basado en un algoritmo inspirado en las pautas descritas en el artículo "Spirometry in the Occupational Setting" (Espirometría en el entorno laboral). Este enfoque proporciona una evaluación detallada de la función pulmonar del paciente, apoyando así la toma de decisiones clínicas más informadas.
 
 - **Generación de informes PDF:** Se implementó una herramienta de generación de informes en formato PDF, que contienen los datos recopilados durante los estudios médicos. Estos incluyen detalles del paciente como nombre, apellido, fecha de nacimiento, altura, peso, sexo y estado de salud al momento del estudio. Además, se registran resultados de mediciones críticas, como FEV1, FVC, PEF y la relación FEV1/FVC. Además de los datos tabulares, los informes incluyen gráficos que visualizan los resultados de las mediciones. Esto se hace a través de gráficos de volumen vs tiempo y flujo vs volumen. 
+
+___
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+Esta obra está bajo una
+[Licencia Creative Commons Atribución 4.0 Internacional][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: https://creativecommons.org/licenses/by/4.0/deed.es
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
