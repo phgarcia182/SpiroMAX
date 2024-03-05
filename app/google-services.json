@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "633549252748",
+    "project_id": "spiromax-54912",
+    "storage_bucket": "spiromax-54912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633549252748:android:abcc37baf255b5030fb3a9",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe2tZPIcTTYU5T0xXRxnyZACz5XK6RXSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

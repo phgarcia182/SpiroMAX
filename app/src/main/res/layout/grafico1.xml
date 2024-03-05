@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/spiromax_"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="#88E65C"
+        android:elevation="4dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/spiromax_"
+        android:textSize="28sp"
+        />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_below="@+id/spiromax_"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="19dp" />
+
+    <Button
+        android:id="@+id/siggraf1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="243dp"
+        android:layout_marginTop="680dp"
+        android:background="@drawable/comenzar_boton"
+        android:text="@string/sig"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/volvergraf1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="680dp"
+        android:background="@drawable/comenzar_boton"
+        android:text="@string/volver"
+        android:textSize="13sp" />
+</RelativeLayout>

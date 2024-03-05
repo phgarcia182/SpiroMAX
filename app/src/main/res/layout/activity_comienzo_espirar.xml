@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Comienzo_Espirar">
+
+    <TextView
+        android:id="@+id/spiromax_"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="#88E65C"
+        android:elevation="4dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/spiromax_"
+        android:textSize="28sp"
+        />
+    <TextView
+        android:id="@+id/listo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="143dp"
+        android:gravity="top"
+        android:text="@string/listo"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/comience_grabar_sele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="185dp"
+        android:gravity="top"
+        android:text="@string/comience_espirar_sele"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="235dp"
+        android:gravity="top"
+        android:text="@string/time"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/crono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="235dp"
+        android:gravity="top"
+        android:text="@string/crono"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/No_detener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="290dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/iniciar_grab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="364dp"
+        android:background="@drawable/comenzar_boton"
+        android:text="@string/Iniciar"
+        android:textSize="13sp" />
+
+
+    <Button
+        android:id="@+id/calib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="424dp"
+        android:background="@drawable/comenzar_boton"
+        android:text="@string/Calibrar"
+        android:textSize="13sp" />
+
+
+    <Button
+        android:id="@+id/Reintentar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="484dp"
+        android:background="@drawable/comenzar_boton"
+        android:text="@string/Anular"
+        android:textSize="13sp" />
+
+
+    <Button
+        android:id="@+id/sig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="544dp"
+        android:background="@drawable/comenzar_boton"
+        android:text="@string/Resultados"
+        android:textSize="13sp" />
+
+
+
+</RelativeLayout>

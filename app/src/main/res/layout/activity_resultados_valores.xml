@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".resultadosValores">
+
+    <TextView
+        android:id="@+id/spiromax_"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="#88E65C"
+        android:elevation="4dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/spiromax_"
+        android:textSize="28sp"
+        />
+
+    <TextView
+        android:id="@+id/resultados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="95dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/resultados"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnFinalizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="229dp"
+        android:layout_marginTop="548dp"
+        android:background="@drawable/comenzar_boton"
+        android:text="@string/Finalizar"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="223dp"
+        android:background="@drawable/comenzar_boton"
+        android:onClick="inVolver"
+        android:text="@string/volver"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/reiniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="547dp"
+        android:layout_marginEnd="222dp"
+        android:background="@drawable/comenzar_boton"
+        android:text="@string/Reiniciar_Medicion"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnPDF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/comenzar_boton"
+        android:text="@string/Generar_PDF"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/fev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="225dp"
+        android:text="@string/fev1"
+        android:gravity="top"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fvc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="265dp"
+        android:text="@string/fvc"
+        android:gravity="top"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/fevDivfvc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="305dp"
+        android:text="@string/fev1Divfvc"
+        android:gravity="top"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/PEF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="345dp"
+        android:text="@string/pef"
+        android:gravity="top"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/valor"
+        android:layout_width="122dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="167dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/valor"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/txtValorFEV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="225dp"
+        android:minHeight="48dp"
+        android:text="TuTextoAquí"
+        android:textColorHint="#757575"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/valor" />
+
+    <TextView
+        android:id="@+id/txtFVC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="265dp"
+        android:minHeight="48dp"
+        android:text="TuTextoAquí"
+        android:textSize="18sp"
+        android:textColorHint="#757575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtValorFEV"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/txtFEVFVC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="305dp"
+        android:text="TuTextoAquí"
+        android:textSize="18sp"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtValorFEV"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/txtPEF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="345dp"
+        android:text="TuTextoAquí"
+        android:textSize="18sp"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFEVFVC" />
+
+    <TextView
+        android:id="@+id/mensajeCarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnFinalizar"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/mensajeDiagnostico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PEF"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp" />
+
+</RelativeLayout>
